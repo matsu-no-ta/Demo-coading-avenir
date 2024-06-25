@@ -12,7 +12,7 @@ const menu = () => {
             hamburger.classList.remove("is-active");
             headerNav.classList.remove("is-active");
         } else {
-        // is-activeが含まれていなかったらis-activeを追加する（ハンバーガーメニューを開く）
+            // is-activeが含まれていなかったらis-activeを追加する（ハンバーガーメニューを開く）
             hamburger.classList.add("is-active");
             headerNav.classList.add("is-active");
         }
@@ -56,16 +56,16 @@ const fadein = () => {
         entries.forEach((entry) => {
             if (entry.isIntersecting) {
                 entry.target.animate(
-                {
-                    opacity: [0, 1],
-                    filter: ["blur(.3rem)", "blur(0)"],
-                    translate: ["0 .3rem", 0],
-                },
-                {
-                    duration: 1200,
-                    easing: "ease",
-                    fill: "forwards",
-                }
+                    {
+                        opacity: [0, 1],
+                        filter: ["blur(.3rem)", "blur(0)"],
+                        translate: ["0 .3rem", 0],
+                    },
+                    {
+                        duration: 1200,
+                        easing: "ease",
+                        fill: "forwards",
+                    }
                 );
                 obs.unobserve(entry.target);
             }
