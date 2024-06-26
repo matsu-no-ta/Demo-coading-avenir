@@ -454,7 +454,7 @@ body {
     }
 }
 
-#header-nav.is-active {
+.header-nav.is-active {
     position: fixed;
     top: 0;
     right: 0;
