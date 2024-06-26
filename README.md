@@ -1,4 +1,4 @@
-<img width="1424" alt="スクリーンショット 2024-06-25 14 20 32" src="https://github.com/matsu-no-ta/Demo-coading-avenir/assets/167067672/4e579c1b-6b3c-4134-8fb4-dbe3cd248548">
+<img width="1398" alt="スクリーンショット 2024-06-25 14 20 32" src="https://github.com/matsu-no-ta/Demo-coading-avenir/assets/167067672/9714213d-ab53-42a5-a583-6a2bd4ba65a3">
 
 # コーディング --- 架空サイト / Avenir
 
